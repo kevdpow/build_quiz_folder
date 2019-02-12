@@ -4,7 +4,7 @@ This Python 3 script builds a ready-to-quiz folder for Geeks Who Drink Quizmaste
 ## Requirements
 1. [Python 3.5 or Later](https://www.python.org/downloads/)
 
-2. [LXML installed](https://lxml.de/installation.html)
+2. [LXML](https://lxml.de/installation.html)
 
     Windows:
     
