@@ -14,7 +14,7 @@ This Python 3 script builds a ready-to-quiz folder for Geeks Who Drink Quizmaste
     
     <code>python3 -m pip install lxml</code>
 
-3. ZIP folder as distributed by Geeks Who Drink on OBYQM.
+3. Quiz ZIP folder as distributed by Geeks Who Drink on OBYQM.
 
 ## Setup
 
