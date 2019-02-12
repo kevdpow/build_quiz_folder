@@ -56,11 +56,11 @@ def audio_rounds_dict(quiz_folder):
         if o.is_dir():       
             if o.name.startswith('R'): 
                 for root, dirs, files in os.walk(o.path):
-                    for d in dirs:
-                        if d == '__MACOSX':
-                            shutil.rmtree(os.path.join(root, d))
+##                    for d in dirs:
+##                        if d == '__MACOSX':
+##                            shutil.rmtree(os.path.join(root, d))
                     for f in sorted(files):
-                        if f.endswith('.mp3'):
+                        if f.endswith('.mp3') and not f.startswith('._'):
                             if o.name not in audio_rounds_dict:
                                 audio_rounds_dict[o.name] = []
                                 audio_rounds_dict[o.name].append(eight_sec)
